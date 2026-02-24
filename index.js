@@ -18,10 +18,18 @@
 //   email: "guille@example.com",
 //   premium: true,
 // };  console.log(newUser);
-var nombre = "Guilherme";
-var edad = 35;
-var personaje = {
-    nombre: "Guilherme",
-    edad: 35,
+// let nombre: string = "Guilherme";
+// let edad: number = 35;
+// let personaje: {
+//     nombre: string;
+//     edad: number;
+// } = {
+//     nombre: nombre,
+//     edad: edad,
+// };
+// console.log(personaje);
+var batman = {
+    nombre: "Daniel-san",
+    artesMarciales: ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"]
 };
-console.log(personaje);
+console.log(batman);

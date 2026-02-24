@@ -23,13 +23,23 @@
 //   premium: true,
 // };  console.log(newUser);
 
-let nombre: string = "Guilherme";
-let edad: number = 35;
-let personaje: {
-    nombre: string;
-    edad: number;
+// let nombre: string = "Guilherme";
+// let edad: number = 35;
+// let personaje: {
+//     nombre: string;
+//     edad: number;
+// } = {
+//     nombre: nombre,
+//     edad: edad,
+// };
+// console.log(personaje);
+
+let batman: {
+  nombre: string;
+  artesMarciales: string[];
 } = {
-    nombre: "Guilherme",
-    edad: 35,
+  nombre: "Daniel-san",
+  artesMarciales: ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"]
 };
-console.log(personaje);
+
+console.log(batman)
